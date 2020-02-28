@@ -3746,7 +3746,7 @@ input, select, textarea {
 
 			#banner {
 				padding: 7em 3em 5em 3em ;
-				height: auto;
+				height: -webkit-fill-available;
 				min-height: 0;
 			}
 
@@ -4014,6 +4014,7 @@ input, select, textarea {
 		background-size: cover;
 		padding-top: 0;
 	}
+
 
 	body.landing #footer {
 		background-color: rgb(29, 36, 42);
