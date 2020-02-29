@@ -4015,7 +4015,6 @@ input, select, textarea {
 		padding-top: 0;
 	}
 
-
 	body.landing #footer {
 		background-color: rgb(29, 36, 42);
 	}
@@ -4033,6 +4032,7 @@ input, select, textarea {
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-attachment: fixed;
 	}
 
 	body.is-mobile.landing #footer {
