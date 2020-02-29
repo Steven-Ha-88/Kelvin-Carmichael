@@ -4033,6 +4033,9 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
+		z-index: -1;
+    height: 100vh;
+    width: 100%;
 	}
 
 	body.is-mobile.landing #footer {
