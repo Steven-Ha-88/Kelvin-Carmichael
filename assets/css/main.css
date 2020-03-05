@@ -4061,6 +4061,7 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: cover  !important;;
 		background-attachment: fixed  !important;;
+		min-height: 300px;
 	}
 
 	body.is-mobile.landing #footer {
