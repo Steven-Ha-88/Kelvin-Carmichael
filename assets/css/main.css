@@ -4060,9 +4060,27 @@ input, select, textarea {
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover  !important;;
-		background-attachment: fixed  !important;;
-		min-height: 300px;
+		background-attachment: fixed  !important;
+
 	}
+	@media screen and (max-width: 375px) {
+
+		.landing .wrapper.style4 {
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+			background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover  !important;;
+			background-attachment: fixed  !important;
+	
+		}
+
+	}
+
+
+
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
