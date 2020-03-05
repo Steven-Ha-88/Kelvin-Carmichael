@@ -2563,12 +2563,21 @@ input, select, textarea {
 		width: 100%;
 	}
 
+
 		.features li {
 			padding: 4em 4em 2em 6em ;
 			display: block;
 			position: relative;
 			text-align: left;
 			width: 50%;
+		}
+
+		.features p {
+			font-size: 14px;
+		}
+
+		.features h5 {
+			background-color:#b34a4c;
 		}
 
 			.features li:nth-child(1) {
