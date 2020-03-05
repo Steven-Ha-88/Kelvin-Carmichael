@@ -4066,10 +4066,12 @@ input, select, textarea {
 @media screen and (max-width: 375px) {
 	body.landing #page-wrapper{
 		background-attachment: scroll;
+		min-height: 100vh;
 	}
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4  {
 					background-attachment: scroll  !important;
+					min-height: 100vh;
 				}
 
 }
