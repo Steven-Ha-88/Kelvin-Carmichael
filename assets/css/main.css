@@ -4029,7 +4029,7 @@ input, select, textarea {
 
 /* Landing */
 
-	 body.landing #page-wrapper {
+	 /* body.landing #page-wrapper {
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
@@ -4040,7 +4040,7 @@ input, select, textarea {
 		background-size: cover;
 		min-height: 100vh;
 		padding-top: 0;
-	} 
+	}  */
 
 
 	body.landing #footer {
@@ -4064,7 +4064,9 @@ input, select, textarea {
 	}
  */
 
-	 body{
+
+ /* this is the one u need to rub out */
+	 /* body{
 background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
@@ -4073,8 +4075,24 @@ background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), u
 		background-repeat: no-repeat;
 		background-size: cover  !important;
 		background-attachment: fixed  !important;
-} 
-
+}  */
+body:after{
+	content:"";
+	position:fixed; /* stretch a fixed position to the whole screen */
+	top:0;
+	height:100vh; /*fix for mobile browser address bar appearing disappearing*/
+	left:0;
+	right:0;
+	z-index:-1; /* needed to keep in the background */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
 
 
