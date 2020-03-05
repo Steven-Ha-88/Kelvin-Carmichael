@@ -4064,9 +4064,13 @@ input, select, textarea {
 	}
 
 @media screen and (max-width: 375px) {
-	body.is-mobile.landing .wrapper.style4 {
-		background-attachment: scroll  !important;
+	body.landing #page-wrapper{
+		background-attachment: scroll;
 	}
+	body.is-mobile.landing #banner,
+	body.is-mobile.landing .wrapper.style4  {
+					background-attachment: scroll  !important;
+				}
 
 }
 
