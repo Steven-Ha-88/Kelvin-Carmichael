@@ -38,7 +38,9 @@ margin-left: 20px;
 .flaticon-drum-set:before { 
   content: "\f101";
   color: rgb(0,255,197);
-  transform: rotate(45deg);}
+  transform: rotate(45deg);
+  font-size: 3.3em;}
+
 .flaticon-microphone:before { 
   content: "\f102";
   color: rgb(0,237,253)
