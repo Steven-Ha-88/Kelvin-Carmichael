@@ -2306,9 +2306,12 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
-		letter-spacing: 1px;
+		letter-spacing: 2px;
 	}
 
+	.big {
+		font-size: 24px;
+	}
 		ul.icons li {
 			display: inline-block;
 			padding: 0 1em 0 0;
@@ -2841,7 +2844,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #375d55e8;
+			background-color: #375d55de;
 			color: #c8ece9;
 		}
 
@@ -3004,7 +3007,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color:#375d55e8;;
+			background-color:#375d55de;
 			color: #d3d4e4;
 		}
 
@@ -4043,9 +4046,9 @@ input, select, textarea {
 		background-color: rgb(29, 36, 42);
 	}
 
-	body.is-mobile.landing #page-wrapper {
+	/* body.is-mobile.landing #page-wrapper {
 		background: none;
-	}
+	} */
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
