@@ -1756,6 +1756,7 @@ input, select, textarea {
 
 	section.special, article.special {
 		text-align: center;
+
 	}
 
 	header p {
@@ -2199,6 +2200,8 @@ input, select, textarea {
 			justify-content: center;
 			width: 100%;
 			margin-left: 0;
+			margin-top: 150px;
+
 		}
 
 			ul.actions.special li:first-child {
@@ -2302,6 +2305,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		letter-spacing: 1px;
 	}
 
 		ul.icons li {
@@ -2605,6 +2609,14 @@ input, select, textarea {
 
 			.features li:nth-child(10) {
 				background-color: rgba(0, 0, 0, 0.35);
+			}
+
+			.features li:nth-child(11) {
+				background-color: rgba(0, 0, 0, 0.38);
+			}
+
+			.features li:nth-child(12) {
+				background-color: rgba(0, 0, 0, 0.41);
 			}
 
 			.features li:before {
