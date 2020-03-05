@@ -4053,22 +4053,22 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		content:"";
-		position:fixed; /* stretch a fixed position to the whole screen */
-		top:0;
-		height:100vh; /* fix for mobile browser address bar appearing disappearing */
-		left:0;
-		right:0;
-		z-index:-1; /* needed to keep in the background */
-		background: url(https://www.w3schools.com/css/trolltunga.jpg) center center;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover  !important;
+		background-attachment: fixed  !important;
+	}
+
+@media screen and (max-width: 375px) {
+	body.is-mobile.landing .wrapper.style4 {
+		background-attachment: scroll  !important;
+	}
+
 }
-	
-
-
 
 
 
