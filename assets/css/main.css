@@ -2018,6 +2018,21 @@ input, select, textarea {
 		position: relative;
 	}
 
+	.facebook:hover {
+		color: rgb(58,92,169);
+	}
+
+	.youtube:hover {
+		color: rgb(255,0,0);
+	}
+	.instagram:hover {
+		color: rgb(211,34,109);
+	}
+	.mail:hover {
+		color: rgb(251, 255, 200);
+	}
+
+
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
@@ -3743,7 +3758,7 @@ input, select, textarea {
 				width: 1.5em;
 			}
 
-		#banner:after {
+		 #banner:after {
 			pointer-events: none;
 			-moz-transition: opacity 3s ease-in-out;
 			-webkit-transition: opacity 3s ease-in-out;
@@ -3762,7 +3777,7 @@ input, select, textarea {
 			left: 0;
 			top: 0;
 			opacity: 0;
-		}
+		} 
 
 		@media screen and (max-width: 736px) {
 
@@ -4029,7 +4044,7 @@ input, select, textarea {
 
 /* Landing */
 
-	body.landing #page-wrapper {
+	/* body.landing #page-wrapper {
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
@@ -4040,7 +4055,7 @@ input, select, textarea {
 		background-size: cover;
 		min-height: 100vh;
 		padding-top: 0;
-	}
+	} */
 
 
 	body.landing #footer {
@@ -4050,7 +4065,7 @@ input, select, textarea {
 	/* body.is-mobile.landing #page-wrapper {
 		background: none;
 	} */
-
+/* 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
@@ -4061,7 +4076,7 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: cover  !important;
 		background-attachment: fixed  !important;
-	}
+	} */
 
 
 /* @media screen and (max-width: 375px) {
@@ -4075,7 +4090,7 @@ input, select, textarea {
 
 } */
 
-body:after{
+body::after{
 	content:"";
 	position:fixed; /* stretch a fixed position to the whole screen */
 	top:0;
